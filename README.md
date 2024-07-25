@@ -44,4 +44,4 @@ Transformers have been adapted for time series forecasting to handle sequential 
 - Zhou, H., Liu, L., Zhao, Z., Zhang, Z., & Zhang, Q. (2021). Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting. *AAAI*.
 - Wu, Y., He, J., & Li, J. (2021). Autoformer: Decomposition Transformers with Auto-Correlation Mechanism for Long-Term Series Forecasting. *ICLR*.
 - Li, Z., Liu, C., & Zhang, Z. (2021). LogTrans: Improving Transformer with Logarithmic Attention for Long Sequence Forecasting. *ICLR*.
-- Zhang, X., Liu, Y., Yang, Y., & Zhao, H. (2022). Patch TST: Patch Transformer for Time Series Forecasting. *NeurIPS*.
+- Zheng, H., Zheng, Y., & Chen, X. (2021). A Time Series is Worth 64 Words: Long-term Forecasting with Transformers. *ICLR*.
