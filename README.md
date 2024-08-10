@@ -7,9 +7,9 @@ Transformers have become a fundamental building block in modern machine learning
 - [Introduction to Transformers](#introduction-to-transformers)
 - [Key Components](#key-components)
 - [Types of Transformers](#types-of-transformers)
-  - [Vanilla Transformer](#vanilla-transformer)
-  - [Informer](#Informer)
   
+  - [Informer](#Informer)
+  - [Autoformer](#Autoformer)
 
 ## Transformers for Time Series Forecasting
 
