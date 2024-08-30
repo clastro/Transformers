@@ -53,7 +53,9 @@ class DistanceAwareMultiHeadAttention(tf.keras.layers.Layer):
         # Create a TensorFlow tensor for indices
         indices = tf.range(seq_len, dtype=tf.float32)
         distances = tf.abs(tf.expand_dims(indices, 1) - tf.expand_dims(indices,0))
-        return distances
+        max_distance = tf.reduce_max(distances)
+        normalized_distances = distances / max_distance
+        return normalized_distances
 
     def get_config(self):
         config = super().get_config().copy()
