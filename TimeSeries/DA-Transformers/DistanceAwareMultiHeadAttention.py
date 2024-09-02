@@ -55,7 +55,7 @@ class DistanceAwareMultiHeadAttention(tf.keras.layers.Layer):
         distances = tf.abs(tf.expand_dims(indices, 1) - tf.expand_dims(indices,0))
         max_distance = tf.reduce_max(distances)
         normalized_distances = distances / max_distance
-        return normalized_distances
+        return normalized_distances * 1e-02
 
     def get_config(self):
         config = super().get_config().copy()
