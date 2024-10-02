@@ -1,4 +1,4 @@
-class DistanceAwareMultiHeadAttention(tf.keras.layers.Layer):
+class DistanceAwareMultiHeadAttention(tf.keras.layers.Layer): 
     def __init__(self, embedding_dim, num_heads=8, name="DistanceAwareMultiHeadAttention", **kwargs):
         super(DistanceAwareMultiHeadAttention, self).__init__(name=name, **kwargs)
         self.embedding_dim = embedding_dim
