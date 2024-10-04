@@ -16,7 +16,7 @@ class DistanceAwareMultiHeadAttention(tf.keras.layers.Layer):
         depth = tf.cast(tf.shape(key)[-1], tf.float32)
         logits = matmul_qk / tf.math.sqrt(depth)
 
-        # Adding distance-based penalty to the logit 
+        # Adding distance-based penalty to the logits 
         logits -= distance_matrix
 
         attention_weights = tf.nn.softmax(logits, axis=-1)
