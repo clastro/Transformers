@@ -1,7 +1,7 @@
 # Transformer Models Overview
 
 This repository provides an overview of Transformer models, including their basic principles and various types
-Transformers have become a fundamental building block in modern machine learning, especially in natural language processing (NLP) tasks.
+Transformers have become a fundamental building block in modern machine learning, especially in natural language processing (NLP) tasks. 
 
 ## Table of Contents
 - [Introduction to Transformers](#introduction-to-transformers)
